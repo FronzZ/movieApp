@@ -1,0 +1,15 @@
+.header {
+   padding: 0;
+   height: auto;
+   margin-bottom: 10px;
+   background-color: white;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+
+@media (min-width: 960px) {
+   .header {
+      margin-bottom: 30px;
+   }
+}
